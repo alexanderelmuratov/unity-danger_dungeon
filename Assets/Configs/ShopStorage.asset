@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086204974744c43f19baf08342d384a0, type: 3}
+  m_Name: ShopStorage
+  m_EditorClassIdentifier: 
+  shopData:
+  - itemName: Pistol
+    icon: {fileID: 21300000, guid: 7dea58bfb02c849a8addbe956a2b35d0, type: 3}
+    price: 100
+  - itemName: Rifle
+    icon: {fileID: 21300000, guid: c8652efd03ed144ddb08b8531aa585da, type: 3}
+    price: 80
+  - itemName: Bow
+    icon: {fileID: 21300000, guid: 86cae6ea76c794857a8f24f82397eada, type: 3}
+    price: 50
+  - itemName: Pill
+    icon: {fileID: 21300000, guid: 6b188d5a23b7f4915b5497fb07b4a81b, type: 3}
+    price: 50
+  - itemName: Helmet
+    icon: {fileID: 21300000, guid: bc335362258244714b4c4ef1f4a89792, type: 3}
+    price: 80
+  - itemName: Armor
+    icon: {fileID: 21300000, guid: 8b8c1b37b558d41018856b0ca1cbe3ec, type: 3}
+    price: 100
+  - itemName: Boots
+    icon: {fileID: 21300000, guid: 47a5a420827504c44887623da1598ec3, type: 3}
+    price: 90
+  - itemName: Food
+    icon: {fileID: 21300000, guid: 8d14ae01c84d64c72913f84eb519f804, type: 3}
+    price: 40
+  - itemName: Hat
+    icon: {fileID: 21300000, guid: 5c8cb9178b913407fa499aff2cdfc873, type: 3}
+    price: 40
+  - itemName: Boxers
+    icon: {fileID: 21300000, guid: ce730d69dd88447899239613ec03d516, type: 3}
+    price: 50
+  - itemName: Slippers
+    icon: {fileID: 21300000, guid: 8a25f6595993f4ac1b82cde18b4a88f3, type: 3}
+    price: 30
+  - itemName: Pickle
+    icon: {fileID: 21300000, guid: d19d7192f76794724b468567fcf9c51f, type: 3}
+    price: 20

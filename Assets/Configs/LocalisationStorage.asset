@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c0656b4c5464cbf84d35ef4bba4375, type: 3}
+  m_Name: LocalisationStorage
+  m_EditorClassIdentifier: 
+  localizationData:
+  - key: play
+    localizations:
+    - language: 0
+      translation: Play
+    - language: 1
+      translation: "\u0413\u0440\u0430\u0442\u0438"
+    - language: 2
+      translation: "Gra\u0107"
+    - language: 3
+      translation: Jouer
+  - key: store
+    localizations:
+    - language: 0
+      translation: Store
+    - language: 1
+      translation: "\u0421\u043A\u043B\u0430\u0434"
+    - language: 2
+      translation: "Sk\u0142ad"
+    - language: 3
+      translation: Depot
+  - key: exit
+    localizations:
+    - language: 0
+      translation: Exit
+    - language: 1
+      translation: "\u0412\u0438\u0439\u0442\u0438"
+    - language: 2
+      translation: "Wyj\u015B\u0107"
+    - language: 3
+      translation: Sortir
+  - key: menu
+    localizations:
+    - language: 0
+      translation: Menu
+    - language: 1
+      translation: "\u041C\u0435\u043D\u044E"
+    - language: 2
+      translation: Menu
+    - language: 3
+      translation: Menu
+  - key: title
+    localizations:
+    - language: 0
+      translation: Danger Dangeon
+    - language: 1
+      translation: "\u0421\u0442\u0440\u0430\u0448\u043D\u0435 \u041F\u0456\u0434\u0432\u0430\u043B\u043B\u044F"
+    - language: 2
+      translation: "Zagro\u017Cony Loch"
+    - language: 3
+      translation: Danger Donjon
+  - key: target
+    localizations:
+    - language: 0
+      translation: kill enemies & find reward chest
+    - language: 1
+      translation: "\u043F\u0440\u0438\u0431\u0435\u0440\u0438 \u043D\u0435\u0447\u0438\u0441\u0442\u044C
+        \u0442\u0430 \u0437\u043D\u0430\u0439\u0434\u0438 \u0441\u043A\u0430\u0440\u0431"
+    - language: 2
+      translation: "zabij wrog\xF3w i znajd\u017A skrzyni\u0119"
+    - language: 3
+      translation: tuez les ennemis et trouvez coffre
+  - key: win
+    localizations:
+    - language: 0
+      translation: You win
+    - language: 1
+      translation: "\u041C\u043E\u043B\u043E\u0434\u0435\u0446\u044C"
+    - language: 2
+      translation: Dobrze zrobiony
+    - language: 3
+      translation: "Bien jou\xE9"
+  - key: lose
+    localizations:
+    - language: 0
+      translation: You lose
+    - language: 1
+      translation: "\u041D\u0435\u0432\u0434\u0430\u0445\u0430"
+    - language: 2
+      translation: Nieudacznik
+    - language: 3
+      translation: Perdant
+  - key: back
+    localizations:
+    - language: 0
+      translation: Back
+    - language: 1
+      translation: "\u041D\u0430\u0437\u0430\u0434"
+    - language: 2
+      translation: "Do ty\u0142u"
+    - language: 3
+      translation: Retour
+  - key: inventory
+    localizations:
+    - language: 0
+      translation: Inventory
+    - language: 1
+      translation: "\u0406\u043D\u0432\u0435\u043D\u0442\u0430\u0440"
+    - language: 2
+      translation: Inwentarz
+    - language: 3
+      translation: Inventaire
+  - key: equipment
+    localizations:
+    - language: 0
+      translation: Equipment
+    - language: 1
+      translation: "\u041B\u0430\u0448\u0442\u0443\u0432\u0430\u043D\u043D\u044F"
+    - language: 2
+      translation: Ekwipunek
+    - language: 3
+      translation: "\xC9quipement"
+  - key: shop
+    localizations:
+    - language: 0
+      translation: Shop
+    - language: 1
+      translation: "\u041A\u0440\u0430\u043C\u043D\u0438\u0446\u044F"
+    - language: 2
+      translation: Sklep
+    - language: 3
+      translation: Boutique
+  - key: weapon
+    localizations:
+    - language: 0
+      translation: Weapon
+    - language: 1
+      translation: "\u0417\u0431\u0440\u043E\u044F"
+    - language: 2
+      translation: "Or\u0119\u017C"
+    - language: 3
+      translation: Arme
+  - key: head
+    localizations:
+    - language: 0
+      translation: Head
+    - language: 1
+      translation: "\u0413\u043E\u043B\u043E\u0432\u0430"
+    - language: 2
+      translation: "G\u0142owa"
+    - language: 3
+      translation: "T\xEAte"
+  - key: body
+    localizations:
+    - language: 0
+      translation: Body
+    - language: 1
+      translation: "\u0422\u0456\u043B\u043E"
+    - language: 2
+      translation: "Cia\u0142o"
+    - language: 3
+      translation: Corps
+  - key: shoes
+    localizations:
+    - language: 0
+      translation: Shoes
+    - language: 1
+      translation: "\u0412\u0437\u0443\u0442\u0442\u044F"
+    - language: 2
+      translation: Obuwie
+    - language: 3
+      translation: Souliers
+  - key: score
+    localizations:
+    - language: 0
+      translation: 'Score: {0}'
+    - language: 1
+      translation: "\u041E\u0447\u043A\u0438: {0}"
+    - language: 2
+      translation: "Zdoby\u0107: {0}"
+    - language: 3
+      translation: 'Score: {0}'
+  - key: reset
+    localizations:
+    - language: 0
+      translation: Reset Progress
+    - language: 1
+      translation: "\u0421\u043A\u0438\u043D\u0443\u0442\u0438 \u043F\u0440\u043E\u0433\u0440\u0435\u0441"
+    - language: 2
+      translation: "Zresetuj Post\u0119p"
+    - language: 3
+      translation: "Reset Avanc\xE9e"

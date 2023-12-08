@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efcdb9b58f62e4c8d9495505b33f011e, type: 3}
+  m_Name: LootStorage
+  m_EditorClassIdentifier: 
+  lootData:
+  - collectionKey: RewardChest
+    lootItems:
+    - itemKey: Helmet
+      weight: 5
+    - itemKey: Armor
+      weight: 5
+    - itemKey: Boots
+      weight: 5
+    - itemKey: Hat
+      weight: 15
+    - itemKey: Boxers
+      weight: 15
+    - itemKey: Slippers
+      weight: 15
+  - collectionKey: WinScreen
+    lootItems:
+    - itemKey: Pistol
+      weight: 5
+    - itemKey: Rifle
+      weight: 10
+    - itemKey: Bow
+      weight: 15
+    - itemKey: Pill
+      weight: 5
+    - itemKey: Food
+      weight: 10
+    - itemKey: Pickle
+      weight: 15
