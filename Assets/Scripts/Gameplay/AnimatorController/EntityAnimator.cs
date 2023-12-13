@@ -26,7 +26,6 @@ public class EntityAnimator : MonoBehaviour
 
     public void SetAttack(bool isAttack)
     {
-        if (animator.GetBool(isAttackHash))
-            animator.SetBool(isAttackHash, isAttack);
+        animator.SetBool(isAttackHash, isAttack);
     }
 }
