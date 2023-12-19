@@ -189,6 +189,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bee3e18bbe27d46c880463cbd3132d6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  joystickPrefab: {fileID: 8170153791668043265, guid: 0d230cc8be529a542a08cb878ab14b18, type: 3}
+  jumpButtonPrefab: {fileID: -3310353922946937331, guid: 36f910c0d95c84d85b961dbb4c56c665, type: 3}
+  fireButtonPrefab: {fileID: 4679066124521162107, guid: 8f7402aefd70b4f9096537750d0332be, type: 3}
 --- !u!114 &8585087659568312432
 MonoBehaviour:
   m_ObjectHideFlags: 0

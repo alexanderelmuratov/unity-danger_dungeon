@@ -8,6 +8,9 @@ TagManager:
   - Enemy
   - GameMap
   - Chest
+  - JumpButton
+  - FireButton
+  - MobileHandler
   layers:
   - Default
   - TransparentFX

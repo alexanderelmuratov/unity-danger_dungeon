@@ -9,6 +9,11 @@ public class LoseView : MonoBehaviour
         playerHealth.OnDamagedEvent += OnHealthChanged;
     }
 
+    private void OnDestroy()
+    {
+        playerHealth.OnDamagedEvent -= OnHealthChanged;
+    }
+
     private void OnHealthChanged(int current, int max)
     {
         if (current <= 0)
