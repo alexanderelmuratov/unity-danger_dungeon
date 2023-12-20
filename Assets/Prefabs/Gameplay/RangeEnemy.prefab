@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2029032885934205179}
   m_Layer: 0
   m_Name: GunPointer
-  m_TagString: Untagged
+  m_TagString: GunPointer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -400,9 +400,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fireSfxKey: pistol_shot
   reloadSfxKey: gun-reload
-  gunPointer: {fileID: 2029032885934205179}
   bulletPrefab: {fileID: 8455698364310945527, guid: 246068f4639f74dbe90b9487cc84a856, type: 3}
   weaponKey: Pistol
+  gunPointer: {fileID: 2029032885934205179}
 --- !u!114 &3884983308935592760
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -11,6 +11,11 @@ TagManager:
   - JumpButton
   - FireButton
   - MobileHandler
+  - GunPointer
+  - DefaultPlayer
+  - WorkerPlayer
+  - SwatPlayer
+  - KnightPlayer
   layers:
   - Default
   - TransparentFX

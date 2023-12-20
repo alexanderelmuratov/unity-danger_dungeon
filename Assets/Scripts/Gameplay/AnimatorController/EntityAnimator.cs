@@ -2,12 +2,17 @@ using UnityEngine;
 
 public class EntityAnimator : MonoBehaviour
 {
-    [SerializeField] private Animator animator;
+    private Animator animator;
 
     private int directionXHash = Animator.StringToHash("DirectionX");
     private int directionYHash = Animator.StringToHash("DirectionY");
     private int isJumpHash = Animator.StringToHash("IsJump");
     private int isAttackHash = Animator.StringToHash("IsAttack");
+
+    private void Start()
+    {
+        animator = GetComponentInChildren<Animator>();
+    }
 
     public void SetDirection(Vector2 direction)
     {

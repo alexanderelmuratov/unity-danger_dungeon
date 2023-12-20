@@ -4,11 +4,13 @@ using UnityEngine;
 public class RifleController : BaseWeaponController
 {
     [SerializeField] private string weaponKey;
+    private Transform gunPointer;
 
     private void Start()
     {
         var data = Context.Instance.DataSystem.WeaponData.FirstOrDefault(e => e.name == weaponKey);
-        Init(data);
+        gunPointer = GameObject.FindWithTag("GunPointer").transform;
+        Init(data, gunPointer);
     }
 
     public override void OnFireHold()

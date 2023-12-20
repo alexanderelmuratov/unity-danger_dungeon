@@ -16,7 +16,7 @@ public abstract class BaseWeaponController : MonoBehaviour, IWeaponController
 {
     [SerializeField] private string fireSfxKey;
     [SerializeField] private string reloadSfxKey;
-    [SerializeField] private Transform gunPointer;
+    private Transform gunPointer;
     [SerializeField] private Movement bulletPrefab;
 
     private Coroutine fireRateRoutine;
@@ -31,9 +31,10 @@ public abstract class BaseWeaponController : MonoBehaviour, IWeaponController
     public abstract void OnFireHold();
     public abstract void OnFireRelease();
 
-    protected void Init(WeaponData weaponData)
+    protected void Init(WeaponData weaponData, Transform gunPointer)
     {
         CurrentWeapon = new Weapon(weaponData);
+        this.gunPointer = gunPointer;
         bulletPool = new ObjectPool<Movement>(bulletPrefab);
     }
 
