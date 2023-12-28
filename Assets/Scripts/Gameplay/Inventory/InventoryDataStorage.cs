@@ -11,6 +11,7 @@ public class InventoryDataStorage : ScriptableObject
 public class InventoryData
 {
     public InventoryType type;
+    public string playerModel;
     public string name;
     public Sprite icon;
     public int armor;

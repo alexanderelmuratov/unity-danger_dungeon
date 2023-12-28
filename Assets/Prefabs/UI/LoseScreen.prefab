@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_text
       value: LooseScreen
       objectReference: {fileID: 0}
+    - target: {fileID: 6398545933595113548, guid: 9c917a50d5a564470a5b732b6ef7941e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6789795212096847333, guid: 9c917a50d5a564470a5b732b6ef7941e, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -103,6 +107,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3477738679526016444, guid: 9c917a50d5a564470a5b732b6ef7941e, type: 3}
+    - {fileID: 6398545933595113548, guid: 9c917a50d5a564470a5b732b6ef7941e, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 9125670997668171656, guid: 9c917a50d5a564470a5b732b6ef7941e, type: 3}
       insertIndex: -1
@@ -237,6 +242,10 @@ PrefabInstance:
     - target: {fileID: 7511707928675360741, guid: dbea31479fb0b4b7a90e932e406bf10e, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915550477863593406, guid: dbea31479fb0b4b7a90e932e406bf10e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:

@@ -23,8 +23,8 @@ public class InputService : MonoBehaviour
 
     private void Start()
     {
-        isMobile = Application.isMobilePlatform;
-        //isMobile = true;
+        //isMobile = Application.isMobilePlatform;
+        isMobile = true;
 
         if (isMobile)
         {

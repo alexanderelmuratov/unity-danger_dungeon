@@ -14,72 +14,84 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventoryData:
   - type: 1
+    playerModel: SwatPlayer
     name: Pistol
     icon: {fileID: 21300000, guid: 7dea58bfb02c849a8addbe956a2b35d0, type: 3}
     armor: 0
     damage: 20
     cure: 0
   - type: 1
+    playerModel: 
     name: Rifle
     icon: {fileID: 21300000, guid: c8652efd03ed144ddb08b8531aa585da, type: 3}
     armor: 0
     damage: 10
     cure: 0
   - type: 1
+    playerModel: WorkerPlayer
     name: Bow
     icon: {fileID: 21300000, guid: 86cae6ea76c794857a8f24f82397eada, type: 3}
     armor: 0
     damage: 5
     cure: 0
   - type: 5
+    playerModel: 
     name: Pill
     icon: {fileID: 21300000, guid: 6b188d5a23b7f4915b5497fb07b4a81b, type: 3}
     armor: 0
     damage: 0
     cure: 20
   - type: 2
+    playerModel: SwatPlayer
     name: Helmet
     icon: {fileID: 21300000, guid: bc335362258244714b4c4ef1f4a89792, type: 3}
     armor: 10
     damage: 0
     cure: 0
   - type: 3
+    playerModel: SwatPlayer
     name: Armor
     icon: {fileID: 21300000, guid: 8b8c1b37b558d41018856b0ca1cbe3ec, type: 3}
     armor: 20
     damage: 0
     cure: 0
   - type: 4
+    playerModel: SwatPlayer
     name: Boots
     icon: {fileID: 21300000, guid: 47a5a420827504c44887623da1598ec3, type: 3}
     armor: 10
     damage: 0
     cure: 0
   - type: 5
+    playerModel: 
     name: Food
     icon: {fileID: 21300000, guid: 8d14ae01c84d64c72913f84eb519f804, type: 3}
     armor: 0
     damage: 0
     cure: 10
   - type: 2
+    playerModel: WorkerPlayer
     name: Hat
     icon: {fileID: 21300000, guid: 5c8cb9178b913407fa499aff2cdfc873, type: 3}
     armor: 5
     damage: 0
     cure: 0
   - type: 3
+    playerModel: WorkerPlayer
     name: Boxers
     icon: {fileID: 21300000, guid: ce730d69dd88447899239613ec03d516, type: 3}
     armor: 10
     damage: 0
     cure: 0
   - type: 4
+    playerModel: WorkerPlayer
     name: Slippers
     icon: {fileID: 21300000, guid: 8a25f6595993f4ac1b82cde18b4a88f3, type: 3}
     armor: 5
     damage: 0
     cure: 0
   - type: 5
+    playerModel: 
     name: Pickle
     icon: {fileID: 21300000, guid: d19d7192f76794724b468567fcf9c51f, type: 3}
     armor: 0

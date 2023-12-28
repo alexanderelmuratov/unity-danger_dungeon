@@ -194,3 +194,13 @@ MonoBehaviour:
       translation: "Zresetuj Post\u0119p"
     - language: 3
       translation: "Reset Avanc\xE9e"
+  - key: resume
+    localizations:
+    - language: 0
+      translation: Resume
+    - language: 1
+      translation: "\u0412 \u0433\u0440\u0443"
+    - language: 2
+      translation: Do gry
+    - language: 3
+      translation: Au jeu
