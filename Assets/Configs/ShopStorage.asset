@@ -13,39 +13,39 @@ MonoBehaviour:
   m_Name: ShopStorage
   m_EditorClassIdentifier: 
   shopData:
-  - itemName: Pistol
-    icon: {fileID: 21300000, guid: 7dea58bfb02c849a8addbe956a2b35d0, type: 3}
-    price: 100
-  - itemName: Rifle
-    icon: {fileID: 21300000, guid: c8652efd03ed144ddb08b8531aa585da, type: 3}
-    price: 80
-  - itemName: Bow
-    icon: {fileID: 21300000, guid: 86cae6ea76c794857a8f24f82397eada, type: 3}
-    price: 50
-  - itemName: Pill
-    icon: {fileID: 21300000, guid: 6b188d5a23b7f4915b5497fb07b4a81b, type: 3}
-    price: 50
-  - itemName: Helmet
+  - itemName: KnightHelmet
     icon: {fileID: 21300000, guid: bc335362258244714b4c4ef1f4a89792, type: 3}
-    price: 80
-  - itemName: Armor
-    icon: {fileID: 21300000, guid: 8b8c1b37b558d41018856b0ca1cbe3ec, type: 3}
-    price: 100
-  - itemName: Boots
+    price: 245
+  - itemName: KnightArmor
+    icon: {fileID: 21300000, guid: 82832d92c9447494183b347f9cbf78de, type: 3}
+    price: 270
+  - itemName: KnightPants
+    icon: {fileID: 21300000, guid: 40889663ccffb44f490f3a223ffbab5e, type: 3}
+    price: 230
+  - itemName: KnightBoots
     icon: {fileID: 21300000, guid: 47a5a420827504c44887623da1598ec3, type: 3}
-    price: 90
-  - itemName: Food
-    icon: {fileID: 21300000, guid: 8d14ae01c84d64c72913f84eb519f804, type: 3}
-    price: 40
-  - itemName: Hat
-    icon: {fileID: 21300000, guid: 5c8cb9178b913407fa499aff2cdfc873, type: 3}
-    price: 40
-  - itemName: Boxers
-    icon: {fileID: 21300000, guid: ce730d69dd88447899239613ec03d516, type: 3}
-    price: 50
-  - itemName: Slippers
-    icon: {fileID: 21300000, guid: 8a25f6595993f4ac1b82cde18b4a88f3, type: 3}
+    price: 255
+  - itemName: SwatHelmet
+    icon: {fileID: 21300000, guid: ba8b409bcce7f4b8ba5423b93e4aa6fd, type: 3}
+    price: 125
+  - itemName: SwatArmor
+    icon: {fileID: 21300000, guid: 7a49e8b4816864f3e8652251e8d63149, type: 3}
+    price: 130
+  - itemName: SwatPants
+    icon: {fileID: 21300000, guid: 242eedfe40130410993f5223f06fd1ca, type: 3}
+    price: 115
+  - itemName: SwatBoots
+    icon: {fileID: 21300000, guid: 6425d65d4099c4db8b5f71f5c17f3a62, type: 3}
+    price: 140
+  - itemName: WorkerHelmet
+    icon: {fileID: 21300000, guid: 4a3a78aa1d2fd457e96a8688ebd2972e, type: 3}
     price: 30
-  - itemName: Pickle
-    icon: {fileID: 21300000, guid: d19d7192f76794724b468567fcf9c51f, type: 3}
+  - itemName: WorkerJacket
+    icon: {fileID: 21300000, guid: cd8c60946f00341e8a73584125cd8e7f, type: 3}
+    price: 25
+  - itemName: WorkerPants
+    icon: {fileID: 21300000, guid: 078d88ad930554230b6d2bb302313215, type: 3}
     price: 20
+  - itemName: WorkerBoots
+    icon: {fileID: 21300000, guid: e7c5c82c773a84211809afd608f2a8fb, type: 3}
+    price: 25

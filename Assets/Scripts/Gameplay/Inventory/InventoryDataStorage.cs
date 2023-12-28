@@ -25,6 +25,7 @@ public enum InventoryType
     Weapon,
     Head,
     Body,
+    Legs,
     Shoes,
     Product
 }

@@ -38,9 +38,9 @@ public class EquipmentSystem : IEquipmentSystem
             Slots = SaveSlotConverter.ConvertFromSaveFormat(saveData);
         }
 
-        Slots[0].slotType = InventoryType.Weapon;
-        Slots[1].slotType = InventoryType.Head;
-        Slots[2].slotType = InventoryType.Body;
+        Slots[0].slotType = InventoryType.Head;
+        Slots[1].slotType = InventoryType.Body;
+        Slots[2].slotType = InventoryType.Legs;
         Slots[3].slotType = InventoryType.Shoes;
     }
 

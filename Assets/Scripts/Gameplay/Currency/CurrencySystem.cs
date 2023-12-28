@@ -18,7 +18,7 @@ public class CurrencySystem : ICurrencySystem
     {
         saveSystem = Context.Instance.SaveSystem;
 
-        SoftCurrency = InitCurrency(SaveKeySoft, "Gold", 200);
+        SoftCurrency = InitCurrency(SaveKeySoft, "Gold", 100);
         HardCurrency = InitCurrency(SaveKeyHard, "Crystal", 10);
 
         SoftCurrency.OnChangedEvent += Save;

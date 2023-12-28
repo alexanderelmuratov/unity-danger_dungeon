@@ -15,17 +15,29 @@ MonoBehaviour:
   lootData:
   - collectionKey: RewardChest
     lootItems:
-    - itemKey: Helmet
+    - itemKey: KnightHelmet
       weight: 5
-    - itemKey: Armor
+    - itemKey: KnightArmor
       weight: 5
-    - itemKey: Boots
+    - itemKey: KnightPants
       weight: 5
-    - itemKey: Hat
+    - itemKey: KnightBoots
+      weight: 5
+    - itemKey: SwatHelmet
+      weight: 10
+    - itemKey: SwatArmor
+      weight: 10
+    - itemKey: SwatPants
+      weight: 10
+    - itemKey: SwatBoots
+      weight: 10
+    - itemKey: WorkerHelmet
       weight: 15
-    - itemKey: Boxers
+    - itemKey: WorkerJacket
       weight: 15
-    - itemKey: Slippers
+    - itemKey: WorkerPants
+      weight: 15
+    - itemKey: WorkerBoots
       weight: 15
   - collectionKey: WinScreen
     lootItems:

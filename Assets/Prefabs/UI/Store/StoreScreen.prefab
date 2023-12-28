@@ -958,7 +958,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4931761364858725575, guid: 60558a672069f4b28b3f76e1689dd393, type: 3}
       propertyPath: m_text
-      value: Body
+      value: Legs
       objectReference: {fileID: 0}
     - target: {fileID: 5905330316434008805, guid: 60558a672069f4b28b3f76e1689dd393, type: 3}
       propertyPath: m_Pivot.x
@@ -1046,7 +1046,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8276502825240880348, guid: 60558a672069f4b28b3f76e1689dd393, type: 3}
       propertyPath: key
-      value: body
+      value: legs
       objectReference: {fileID: 0}
     - target: {fileID: 8526312743564791720, guid: 60558a672069f4b28b3f76e1689dd393, type: 3}
       propertyPath: m_Name
@@ -3082,7 +3082,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4931761364858725575, guid: 60558a672069f4b28b3f76e1689dd393, type: 3}
       propertyPath: m_text
-      value: Head
+      value: Body
       objectReference: {fileID: 0}
     - target: {fileID: 5905330316434008805, guid: 60558a672069f4b28b3f76e1689dd393, type: 3}
       propertyPath: m_Pivot.x
@@ -3170,7 +3170,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8276502825240880348, guid: 60558a672069f4b28b3f76e1689dd393, type: 3}
       propertyPath: key
-      value: head
+      value: body
       objectReference: {fileID: 0}
     - target: {fileID: 8526312743564791720, guid: 60558a672069f4b28b3f76e1689dd393, type: 3}
       propertyPath: m_Name
@@ -3864,6 +3864,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8813547086636518783}
     m_Modifications:
+    - target: {fileID: 4931761364858725575, guid: 60558a672069f4b28b3f76e1689dd393, type: 3}
+      propertyPath: m_text
+      value: Head
+      objectReference: {fileID: 0}
     - target: {fileID: 5905330316434008805, guid: 60558a672069f4b28b3f76e1689dd393, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3946,7 +3950,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8276502825240880348, guid: 60558a672069f4b28b3f76e1689dd393, type: 3}
       propertyPath: key
-      value: weapon
+      value: head
       objectReference: {fileID: 0}
     - target: {fileID: 8526312743564791720, guid: 60558a672069f4b28b3f76e1689dd393, type: 3}
       propertyPath: m_Name

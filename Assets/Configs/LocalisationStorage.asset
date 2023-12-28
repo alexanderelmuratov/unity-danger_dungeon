@@ -164,6 +164,16 @@ MonoBehaviour:
       translation: "Cia\u0142o"
     - language: 3
       translation: Corps
+  - key: legs
+    localizations:
+    - language: 0
+      translation: Legs
+    - language: 1
+      translation: "\u041D\u043E\u0433\u0438"
+    - language: 2
+      translation: Nogi
+    - language: 3
+      translation: Jambes
   - key: shoes
     localizations:
     - language: 0

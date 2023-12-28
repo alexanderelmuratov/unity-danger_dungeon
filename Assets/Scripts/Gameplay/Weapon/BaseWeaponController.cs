@@ -16,11 +16,11 @@ public abstract class BaseWeaponController : MonoBehaviour, IWeaponController
 {
     [SerializeField] private string fireSfxKey;
     [SerializeField] private string reloadSfxKey;
-    private Transform gunPointer;
     [SerializeField] private Movement bulletPrefab;
 
     private Coroutine fireRateRoutine;
     private Coroutine reloadRoutine;
+    private Transform gunPointer;
     private ObjectPool<Movement> bulletPool;
 
     protected Weapon CurrentWeapon { get; set; }
